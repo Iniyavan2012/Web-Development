@@ -1,0 +1,20 @@
+.Sample_Class{
+    color:rgb(255, 242, 4);
+    background-color: black;
+    text-align: center;
+   }
+   #Sample_id{
+    font-size: 24px;
+   }
+   #Sample_id1{
+    font-size: 20px;
+   }
+.Sample_Body_Class{
+    background-color: black;
+    border: 2px solid rgb(98, 164, 221);
+}
+.Sample_Image{
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(239, 19, 19);
+}

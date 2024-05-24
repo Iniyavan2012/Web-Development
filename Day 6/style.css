@@ -1,0 +1,24 @@
+.size{
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    margin: 20px;
+}
+.child1{
+    background-color: red;
+}
+.child2{
+    background-color: blue;
+}
+.child3{
+    background-color: yellow;
+}
+.parent{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,22 @@
+.box1{
+    min-height: 50vh;
+    min-width: 200px;
+    max-height: 50vh;
+    max-width: 200px;
+}
+.color1{
+    background-color: blue;
+}
+.color2{
+    background-color: white;
+}
+.color3{
+    background-color: red;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-color: lightseagreen;
+}

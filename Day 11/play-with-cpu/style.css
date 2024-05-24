@@ -1,0 +1,71 @@
+.container{
+    min-height: 400px;
+    min-width: 400px;
+    max-height: 400px;
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 95vh;
+    min-width: 95vw;
+    margin: 0;
+    padding: 30px;
+}
+#winner{
+    display: none;
+    min-height: 65vh;
+    font-size: 200px;
+    font-family: monospace;
+}
+.box{
+    min-height: 100px;
+    min-width: 100px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 128px;
+    font-family: monospace;
+}
+.reloadButton{
+    display: none;
+    min-height: 50px;
+    min-width: 100px;
+    border-radius: 25%;
+    margin-bottom: 200px;
+    font-family: monospace;
+}
+#c1{
+    border-left: 0;
+    border-top: 0;
+}
+#c2{
+    border-top: 0;
+}
+#c3{
+    border-top: 0;
+    border-right: 0;
+}
+#c4{
+    border-left: 0;
+}
+#c6{
+    border-right: 0;
+}
+#c7{
+    border-left: 0;
+    border-bottom: 0;
+}
+#c8{
+    border-bottom: 0;
+}
+#c9{
+    border-bottom: 0;
+    border-right: 0;
+}
